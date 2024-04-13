@@ -1,0 +1,120 @@
+body{
+    width: 100%;
+    height: 100%;
+    padding: 8% 35% ;
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(45deg,navy,navy,black,darkblue,navy);
+    color: white;
+    text-shadow: 0 0 15px ;
+    justify-content: center;
+}
+
+#textto{
+    background-image: linear-gradient(red,red,orange,red);
+    background-clip: none;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+    
+}
+
+#speech{
+    background-image: linear-gradient(lime,yellowgreen,cyan,blue);
+    background-clip: none;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: none;
+}
+
+#final{
+    text-shadow: 0 0 15px inherit ;
+    text-decoration: underline cyan 3px;
+
+}
+
+#header{
+    padding:0 5px;
+
+}
+
+
+
+.value  {
+    outline: none;
+    width: 573px;
+    height: 300px;
+    margin: 0;
+    border-radius: 15px;
+    opacity: 100%;
+    color: white;
+    font-size: 20px;
+    resize: none;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    padding-left: 15px;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 25px 45px rgba(255,255,255,0.2);
+    backdrop-filter: blur(100px);
+   /* -webkit-backdrop-filter: blur(100px); */
+ 
+    
+}
+
+.value::placeholder{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.dropdown{
+    display: flex;
+    width: 573px;
+    padding: 19px 0 ;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    
+    font-family: impact;
+    background-image: linear-gradient(120deg,black,black,rgb(48, 47, 47),black,black);
+    color: yellow;
+    width:150px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px yellow;
+    font-size: 28px;
+    font-weight: lighter;
+    
+}
+
+button:hover{
+    background-image: linear-gradient(yellow,gold,yellow);
+    box-shadow: 0 0 40px white;
+    color: black;
+}
+
+select{
+    flex: 1;
+    background: rgba(255,255,255,0.12);
+    box-shadow: 0 25px 45px rgba(255,255,255,0.2);
+    backdrop-filter: blur(100px);
+    border-radius: 35px;
+    height: 42px;
+    appearance: none;
+    background-image:url(https://imgs.search.brave.com/0VBUcpCxHpUHGmYc7x6t3zYVhw5-U-ymaORxKsThsvI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8w/LzBjL0VvX2NpcmNs/ZV9wdXJwbGVfYXJy/b3ctZG93bi5zdmc.svg);
+    color: white;
+    padding-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-repeat: no-repeat;
+    background-position: calc( 100% - 2px);
+    
+}
+
+option{
+    background-color: black;
+}
